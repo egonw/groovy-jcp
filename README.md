@@ -1,6 +1,6 @@
 # Groovy JChemPaint
 
-Disclaimer: this requires CDK-JChemPaint, and not the JChemPaint 3.0 applet code.
+Disclaimer: the code examples in this repository require the CDK-JChemPaint patch, and not the JChemPaint 3.0 applet code. The required jars are provided in this repository.
 
 This is the repository matching the scripts listed in the following blog posts:
 
