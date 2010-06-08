@@ -52,8 +52,9 @@ generators.add(new BasicSceneGenerator());
 generators.add(new BasicBondGenerator());
 generators.add(new BasicAtomGenerator());
 
- List<IReactionGenerator> reactiongenerators =
-  new ArrayList<IReactionGenerator>();
+ List<IGenerator<IReaction>> reactiongenerators =
+  new ArrayList<IGenerator<IReaction>>();
+reactiongenerators.add(new ReactionSceneGenerator());
 reactiongenerators.add(new ReactionArrowGenerator());
 reactiongenerators.add(new ReactionPlusGenerator());
 
