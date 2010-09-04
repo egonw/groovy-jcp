@@ -59,7 +59,7 @@ reactiongenerators.add(new ReactionArrowGenerator());
 reactiongenerators.add(new ReactionPlusGenerator());
 
 // the renderer needs to have a toolkit-specific font manager
-Renderer renderer = new Renderer(
+ReactionRenderer renderer = new ReactionRenderer(
   generators, reactiongenerators, new AWTFontManager()
 );
 
@@ -72,7 +72,7 @@ g2.setColor(Color.WHITE);
 g2.fillRect(0, 0, WIDTH, HEIGHT);
 
 // the paint method also needs a toolkit-specific renderer
-renderer.paintReaction(reaction, new AWTDrawVisitor(g2));
+renderer.paint(reaction, new AWTDrawVisitor(g2));
 
 ImageIO.write(
   (RenderedImage)image, "PNG", new File("reaction.png")

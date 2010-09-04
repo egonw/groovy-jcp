@@ -13,7 +13,7 @@ This is the repository matching the scripts listed in the following blog posts:
 
 I am not sure how this works on OS/X or Windows (please let me know!), but you can run the scripts provided here on GNU/Linux systems with:
 
-    $ export CLASSPATH=cdk-1.3.5.jar:cdk-jchempaint-15.jar
+    $ export CLASSPATH=cdk-1.3.5.jar:cdk-jchempaint-16.jar
     $ groovy script.groovy
 
 where script.groovy is one of the scripts provided in this repository.
