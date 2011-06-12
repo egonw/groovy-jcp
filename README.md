@@ -9,6 +9,7 @@ This is the repository matching the scripts listed in the following blog posts:
 * [CDK-JChemPaint #3: rendering parameters](http://chem-bla-ics.blogspot.com/2010/04/cdk-jchempaint-3-rendering-parameters.html)
 * [CDK-JChemPaint #4: embedding the renderer into a Swing panel](http://chem-bla-ics.blogspot.com/2010/04/cdk-jchempaint-4-embedding-renderer.html)
 * [CDK-JChemPaint #6: rendering atom numbers](http://chem-bla-ics.blogspot.com/2010/06/cdk-jchempaint-6-rendering-atom-numbers.html)
+* [CDK-JChemPaint #7: rendering molecules as SVG](http://chem-bla-ics.blogspot.com/2011/06/cdk-jchempaint-7-rendering-molecules-as.html)
 
 ## Running Groovy from the command line
 
