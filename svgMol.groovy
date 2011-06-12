@@ -14,8 +14,8 @@ import org.openscience.cdk.renderer.generators.*;
 import org.openscience.cdk.renderer.visitor.*;
 import org.openscience.cdk.templates.*;
 
-int WIDTH = 600;
-int HEIGHT = 600;
+int WIDTH = 100;
+int HEIGHT = 100;
 
 // the draw area and the image should be the same size
 Rectangle drawArea = new Rectangle(WIDTH, HEIGHT);
@@ -53,3 +53,10 @@ renderer.paint(triazole, svgGenerator);
 
 new File("triazole.svg").append(svgGenerator.getResult())
 
+file = new PrintWriter(new FileWriter(new File("triazole.html")))
+file.println("<html>");
+file.println("<body>");
+file.print("<embed width=\"100\" height=\"100\" src=\"triazole.svg\" />");
+file.println("</body>");
+file.println("<html>");
+file.close()
