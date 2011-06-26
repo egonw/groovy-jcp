@@ -13,9 +13,28 @@ This is the repository matching the scripts listed in the following blog posts:
 
 ## Running Groovy from the command line
 
-I am not sure how this works on OS/X or Windows (please let me know!), but you can run the scripts provided here on GNU/Linux systems with:
+I am not sure how this works on OS/X or Windows (please let me know!), but you can run the scripts provided here on GNU/Linux systems with the following commands.
 
-    $ export CLASSPATH=cdk-1.3.11.1.jar:cdk-jchempaint-20.jar
+For the following scripts, you can use a stock CDK release:
+
+    $ export CLASSPATH=cdk-1.3.12.jar
     $ groovy script.groovy
 
-where script.groovy is one of the scripts provided in this repository.
+Where script.groovy is one of:
+
+* renderMol.groovy
+* dumpParameters.groovy
+* renderRS.groovy
+* swing.groovy
+
+For the others you need to rest of the CDK-JChemPaint patch:
+
+    $ export CLASSPATH=cdk-1.3.12.jar:cdk-jchempaint-21.jar
+    $ groovy script.groovy
+
+where script.groovy is one of the remaining scripts provided in this repository:
+
+* renderAtomNumbers.groovy
+* svgMol.groovy
+* renderAtomNumbers.groovy
+* renderReaction.groovy
