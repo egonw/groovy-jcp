@@ -72,7 +72,7 @@ g2.setColor(Color.WHITE);
 g2.fillRect(0, 0, WIDTH, HEIGHT);
 
 // the paint method also needs a toolkit-specific renderer
-renderer.paint(reaction, new AWTDrawVisitor(g2));
+renderer.paint(reaction, new ExtraAWTDrawVisitor(g2));
 
 ImageIO.write(
   (RenderedImage)image, "PNG", new File("reaction.png")
