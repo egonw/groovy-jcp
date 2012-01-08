@@ -14,8 +14,8 @@ import org.openscience.cdk.renderer.generators.*;
 import org.openscience.cdk.renderer.visitor.*;
 import org.openscience.cdk.templates.*;
 
-int WIDTH = 600;
-int HEIGHT = 600;
+int WIDTH = 200;
+int HEIGHT = 200;
 backgroundColor = Color.lightGray;
 
 // the draw area and the image should be the same size
