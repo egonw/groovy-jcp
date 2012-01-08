@@ -11,6 +11,7 @@ This is the repository matching the scripts listed in the following blog posts:
 * [CDK-JChemPaint #6: rendering atom numbers](http://chem-bla-ics.blogspot.com/2010/06/cdk-jchempaint-6-rendering-atom-numbers.html)
 * [CDK-JChemPaint #7: rendering molecules as SVG](http://chem-bla-ics.blogspot.com/2011/06/cdk-jchempaint-7-rendering-molecules-as.html)
 * [CDK-JChemPaint #8: rendering of aromatic rings](http://chem-bla-ics.blogspot.com/2011/12/cdk-jchempaint-8-rendering-of-aromatic.html)
+* [CDK-JChemPaint #9: implicit hydrogens and isotopes](http://chem-bla-ics.blogspot.com/2011/12/cdk-jchempaint-9-implicit-hydrogens-and.html)
 
 ## Running Groovy from the command line
 
@@ -42,3 +43,5 @@ where script.groovy is one of the remaining scripts provided in this repository:
 * renderAtomNumbers.groovy
 * svgMol.groovy
 * renderReaction.groovy
+* renderImplicitHydrogens.groovy
+* renderIsotopes.groovy
