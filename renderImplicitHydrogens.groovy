@@ -12,7 +12,6 @@ import org.openscience.cdk.layout.*;
 import org.openscience.cdk.renderer.*;
 import org.openscience.cdk.renderer.font.*;
 import org.openscience.cdk.renderer.generators.*;
-import org.openscience.cdk.renderer.generators.AtomNumberGenerator.WillDrawAtomNumbers;
 import org.openscience.cdk.renderer.visitor.*;
 import org.openscience.cdk.templates.*;
 
@@ -35,16 +34,11 @@ atom.setImplicitHydrogenCount(4);
 List<IGenerator> generators = new ArrayList<IGenerator>();
 generators.add(new BasicSceneGenerator());
 generators.add(new BasicBondGenerator());
-generators.add(new AtomNumberGenerator());
 generators.add(new ExtendedAtomGenerator());
 
 // the renderer needs to have a toolkit-specific font manager
 AtomContainerRenderer renderer =
   new AtomContainerRenderer(generators, new AWTFontManager());
-
-// disable atom number rendering
-model = renderer.getRenderer2DModel()
-model.set(WillDrawAtomNumbers.class, Boolean.FALSE)
 
 // the call to 'setup' only needs to be done on the first paint
 renderer.setup(methane, drawArea);
