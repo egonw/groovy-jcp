@@ -16,6 +16,11 @@ This is the repository matching the scripts listed in the following blog posts:
 
 ## Running Groovy from the command line
 
+The below commands require you have a checkout of this repository. You can clone it from the command line with something in the line of:
+
+    $ git clone git://github.com/egonw/groovy-jcp.git
+    $ cd groovy-jcp
+
 I am not sure how this works on OS/X or Windows (please let me know!), but you can run the scripts provided here on GNU/Linux systems with the following commands.
 
 For the following scripts, you can use a stock CDK release:
