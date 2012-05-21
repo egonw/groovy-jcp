@@ -25,7 +25,7 @@ I am not sure how this works on OS/X or Windows (please let me know!), but you c
 
 For the following scripts, you can use a stock CDK release:
 
-    $ export CLASSPATH=cdk-1.4.7.jar
+    $ export CLASSPATH=cdk-1.4.10.jar
     $ groovy script.groovy
 
 The patch is this one:
@@ -42,7 +42,7 @@ Where script.groovy is one of:
 
 For the others you need to rest of the CDK-JChemPaint patch:
 
-    $ export CLASSPATH=cdk-1.4.7.jar:cdk-jchempaint-25.jar
+    $ export CLASSPATH=cdk-1.4.10.jar:cdk-jchempaint-26.jar
     $ groovy script.groovy
 
 where script.groovy is one of the remaining scripts provided in this repository:
