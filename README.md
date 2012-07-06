@@ -13,6 +13,7 @@ This is the repository matching the scripts listed in the following blog posts:
 * [CDK-JChemPaint #8: rendering of aromatic rings](http://chem-bla-ics.blogspot.com/2011/12/cdk-jchempaint-8-rendering-of-aromatic.html)
 * [CDK-JChemPaint #9: implicit hydrogens and isotopes](http://chem-bla-ics.blogspot.com/2011/12/cdk-jchempaint-9-implicit-hydrogens-and.html)
 * [CDK-JChemPaint #10: background color](http://chem-bla-ics.blogspot.com/2012/01/cdk-jchempaint-10-background-color.html)
+* [CDK-JChemPaint #11: coloring selections](http://chem-bla-ics.blogspot.nl/2012/07/cdk-jchempaint-11-coloring-selections.html)
 
 ## Running Groovy from the command line
 
@@ -52,3 +53,4 @@ where script.groovy is one of the remaining scripts provided in this repository:
 * renderReaction.groovy
 * renderImplicitHydrogens.groovy
 * renderIsotopes.groovy
+* renderSelection.groovy
