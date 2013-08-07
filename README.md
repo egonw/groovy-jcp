@@ -40,10 +40,11 @@ Where script.groovy is one of:
 * renderRS.groovy
 * swing.groovy
 * greyBG.groovy
+* renderAromaticity.groovy
 
 For the others you need to rest of the CDK-JChemPaint patch:
 
-    $ export CLASSPATH=cdk-1.4.10.jar:cdk-jchempaint-26.jar
+    $ export CLASSPATH=cdk-1.4.19.jar:cdk-jchempaint-29.jar
     $ groovy script.groovy
 
 where script.groovy is one of the remaining scripts provided in this repository:
