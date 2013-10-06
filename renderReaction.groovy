@@ -25,8 +25,8 @@ Image image = new BufferedImage(
   WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB
 );
 
-IMolecule benzene = MoleculeFactory.makeBenzene();
-IMolecule triazole = MoleculeFactory.make123Triazole();
+IAtomContainer benzene = MoleculeFactory.makeBenzene();
+IAtomContainer triazole = MoleculeFactory.make123Triazole();
 IReaction reaction = new Reaction();
 
 StructureDiagramGenerator sdg = new StructureDiagramGenerator();

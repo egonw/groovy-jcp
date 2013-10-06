@@ -23,7 +23,7 @@ Image image = new BufferedImage(
   WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB
 );
 
-IMolecule triazole = MoleculeFactory.make123Triazole();
+IAtomContainer triazole = MoleculeFactory.make123Triazole();
 StructureDiagramGenerator sdg = new StructureDiagramGenerator();
 sdg.setMolecule(triazole);
 sdg.generateCoordinates();

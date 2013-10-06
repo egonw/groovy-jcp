@@ -25,7 +25,7 @@ Image image = new BufferedImage(
   WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB
 );
 
-IMolecule methane = new Molecule();
+IAtomContainer methane = new AtomContainer();
 atom = new Atom("C");
 methane.addAtom(atom);
 atom.setPoint2d(new Point2d(0,0));

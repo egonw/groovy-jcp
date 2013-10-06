@@ -87,7 +87,7 @@ Image image = new BufferedImage(
   WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB
 );
 
-IMolecule mol = new SmilesParser(
+IAtomContainer mol = new SmilesParser(
   DefaultChemObjectBuilder.getInstance()
 ).parseSmiles(smiles);
 StructureDiagramGenerator sdg = new StructureDiagramGenerator();

@@ -14,8 +14,8 @@ import org.openscience.cdk.renderer.generators.*;
 import org.openscience.cdk.renderer.visitor.*;
 import org.openscience.cdk.templates.*;
 
-int WIDTH = 600;
-int HEIGHT = 600;
+int WIDTH = 400;
+int HEIGHT = 400;
 
 // the draw area and the image should be the same size
 Rectangle drawArea = new Rectangle(WIDTH, HEIGHT);
@@ -23,7 +23,7 @@ Image image = new BufferedImage(
   WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB
 );
 
-IMolecule benzene = MoleculeFactory.makeBenzene();
+IAtomContainer benzene = MoleculeFactory.makeBenzene();
 benzene.atoms().each { atom ->
   atom.setFlag(CDKConstants.ISAROMATIC, true)
 }

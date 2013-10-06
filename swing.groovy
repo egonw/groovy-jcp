@@ -19,12 +19,12 @@ int HEIGHT = 600;
 
 class JCPPanel extends JPanel {
 
-  IMolecule mol;
+  IAtomContainer mol;
   AtomContainerRenderer renderer;
   int width;
   int height;
 
-  public JCPPanel(IMolecule mol, int width, int height) {
+  public JCPPanel(IAtomContainer mol, int width, int height) {
     super();
     this.setSize(width, height);
     this.mol = mol;
@@ -61,7 +61,7 @@ class JCPPanel extends JPanel {
 }
 
 // create molecule
-IMolecule triazole = MoleculeFactory.make123Triazole();
+IAtomContainer triazole = MoleculeFactory.make123Triazole();
 StructureDiagramGenerator sdg = new StructureDiagramGenerator();
 sdg.setMolecule(triazole);
 sdg.generateCoordinates();
