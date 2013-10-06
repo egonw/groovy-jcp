@@ -26,12 +26,8 @@ I am not sure how this works on OS/X or Windows (please let me know!), but you c
 
 For the following scripts, you can use a stock CDK release:
 
-    $ export CLASSPATH=cdk-1.4.10.jar
+    $ export CLASSPATH=cdk-1.4.19.jar
     $ groovy script.groovy
-
-The patch is this one:
-
-https://sourceforge.net/tracker/?func=detail&aid=3369273&group_id=20024&atid=320024
 
 Where script.groovy is one of:
 
@@ -41,17 +37,17 @@ Where script.groovy is one of:
 * swing.groovy
 * greyBG.groovy
 * renderAromaticity.groovy
+* renderAtomNumbers.groovy
+* renderImplicitHydrogens.groovy
+* renderIsotopes.groovy
 
-For the others you need to rest of the CDK-JChemPaint patch:
+For the editor interaction, selection highlighting, reaction rendering, and SVG output you need to rest of the CDK-JChemPaint patch:
 
     $ export CLASSPATH=cdk-1.4.19.jar:cdk-jchempaint-29.jar
     $ groovy script.groovy
 
 where script.groovy is one of the remaining scripts provided in this repository:
 
-* renderAtomNumbers.groovy
 * svgMol.groovy
 * renderReaction.groovy
-* renderImplicitHydrogens.groovy
-* renderIsotopes.groovy
 * renderSelection.groovy
